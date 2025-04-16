@@ -10,9 +10,9 @@ export class PensamentoComponent implements OnInit {
 //componente filho, dados não utilizados
   @Input() pensamento: Pensamento = {
     id: '',
-    conteudo: 'I love Angular',
-    autoria: 'Gabie',
-    modelo: 'modelo1'
+    conteudo: '',
+    autoria: '',
+    modelo: ''
   }
 
   constructor() { }
