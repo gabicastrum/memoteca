@@ -1,22 +1,10 @@
 {
   "pensamentos": [
     {
-      "id": "1",
+      "id": 1,
       "conteudo": "A vida é uma jornada, não um destino.",
-      "autoria": "Gabie",
+      "autoria": "Dev",
       "modelo": "modelo1"
-    },
-    {
-      "id": "2",
-      "conteudo": "A vida é uma jornada, não um destino.",
-      "autoria": "Gabie",
-      "modelo": "modelo2"
-    },
-    {
-      "id": "3",
-      "conteudo": "A vida é uma jornada, não um destino.",
-      "autoria": "Gabie",
-      "modelo": "modelo3"
     }
   ]
 }

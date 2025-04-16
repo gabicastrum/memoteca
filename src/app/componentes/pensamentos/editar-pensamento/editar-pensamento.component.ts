@@ -32,11 +32,11 @@ export class EditarPensamentoComponent implements OnInit {
 
   editarPensamento() {
     this.service.editar(this.pensamento).subscribe(() => {
-      this.router.navigate(['/listarPensamentos']);
+      this.router.navigate(['/listarPensamento']);
     });
   }
 
   cancelar() {
-    this.router.navigate(['/listarPensamentos']);
+    this.router.navigate(['/listarPensamento']);
   }
 }

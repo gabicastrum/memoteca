@@ -9,7 +9,7 @@ import { Pensamento } from '../pensamento';
 export class PensamentoComponent implements OnInit {
 //componente filho, dados não utilizados
   @Input() pensamento: Pensamento = {
-    id: 0,
+    id: '',
     conteudo: 'I love Angular',
     autoria: 'Gabie',
     modelo: 'modelo1'
