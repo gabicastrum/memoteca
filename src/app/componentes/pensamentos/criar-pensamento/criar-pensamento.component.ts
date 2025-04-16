@@ -19,6 +19,7 @@ export class CriarPensamentoComponent implements OnInit {
   }
 
   pensamento: Pensamento = {
+    id: '',
     conteudo: '',
     autoria: '',
     modelo: 'modelo1'
