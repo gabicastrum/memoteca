@@ -1,3 +1,4 @@
+import { ListarPensamentoComponent } from './listar-pensamento/listar-pensamento.component';
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Pensamento } from './pensamento';
@@ -16,6 +17,24 @@ export class PensamentoService {
     let params = new HttpParams()
       .set('_page', pagina)
       .set('_limit', itensPorPagina);
+
+    if (filtro.trim().length > 2) {
+      params = params.set('q', filtro);
+    }
+
+    return this.http.get<Pensamento[]>(this.API, { params: params });
+  }
+
+  ListarPensamentoFavoritos(
+    pagina: number,
+    filtro: string
+  ): Observable<Pensamento[]> {
+    const itensPorPagina = 6;
+
+    let params = new HttpParams()
+      .set('_page', pagina)
+      .set('_limit', itensPorPagina)
+      .set('favorito', true);
 
     if (filtro.trim().length > 2) {
       params = params.set('q', filtro);
