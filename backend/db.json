@@ -5,7 +5,7 @@
       "autoria": "Sócrates",
       "modelo": "modelo2",
       "id": 1,
-      "favorito": true
+      "favorito": false
     },
     {
       "conteudo": "Penso, logo existo.",
@@ -19,14 +19,14 @@
       "autoria": "Sócrates",
       "modelo": "modelo2",
       "id": 3,
-      "favorito": false
+      "favorito": true
     },
     {
       "conteudo": "A dúvida é o princípio da sabedoria.",
       "autoria": "Aristóteles",
       "modelo": "modelo3",
       "id": 4,
-      "favorito": false
+      "favorito": true
     },
     {
       "conteudo": "Não é a linguagem da pintura que conta, mas a emoção que ela provoca.",
@@ -82,7 +82,7 @@
       "autoria": "Robert Cecil Martin",
       "modelo": "modelo2",
       "id": 12,
-      "favorito": false
+      "favorito": true
     },
     {
       "conteudo": "Nada é permanente, exceto a mudança.",
